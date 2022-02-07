@@ -34,7 +34,6 @@ jobs:
           plugin_languages_details: percentage, lines
           plugin_languages_indepth: true
           plugin_languages_analysis_timeout: 30
-          plugin_languages_recent_load: 1000
 
           plugin_wakatime: yes
           plugin_wakatime_days: 7
