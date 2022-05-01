@@ -20,11 +20,12 @@ jobs:
           base: header, activity, community, repositories
           base_indepth: yes
           repositories: 1000
+          repositories_affiliations: collaborator
           config_timezone: America/Los_Angeles
-          config_order: base, languages, wakatime, habits
+          config_order: base.header, base.activity+community, base.repositories, wakatime, languages, notable, habits
 
           plugin_lines: yes
-          plugin_noteable: yes
+          plugin_notable: yes
           plugin_traffic: yes
 
           plugin_habits: yes
