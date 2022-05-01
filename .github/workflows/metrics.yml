@@ -18,27 +18,28 @@ jobs:
           user: garyhtou
           template: classic
           base: header, activity, community, repositories
+          base_indepth: yes
           repositories: 1000
           config_timezone: America/Los_Angeles
-          config_display: columns
           config_order: base, languages, wakatime, habits
 
           plugin_lines: yes
+          plugin_noteable: yes
+          plugin_traffic: yes
 
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
-          plugin_habits_from: 200
+          plugin_habits_from: 500
 
           plugin_languages: yes
           plugin_languages_details: percentage, lines
-          plugin_languages_indepth: true
+          plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
 
           plugin_wakatime: yes
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
           plugin_wakatime_sections: time, languages-graphs, editors-graphs
-          plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
 
