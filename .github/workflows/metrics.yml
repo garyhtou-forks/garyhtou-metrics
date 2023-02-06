@@ -38,7 +38,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_indepth_custom: hackclub/bank
           plugin_languages_analysis_timeout: 60
-          plugin_languages_analysis_timeout_repositories: 0
+          plugin_languages_analysis_timeout_repositories: 15
 
           plugin_wakatime: yes
           plugin_wakatime_days: 7
