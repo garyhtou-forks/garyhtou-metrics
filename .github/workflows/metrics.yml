@@ -36,7 +36,8 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: percentage, lines
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 0
 
           plugin_wakatime: yes
           plugin_wakatime_days: 7
